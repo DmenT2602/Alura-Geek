@@ -4,4 +4,4 @@
 
 1- Abrir consola ctrl + j
 2- npm init -y  para crear el archivo package.json
-3- npm start para inicializar
+3- npm start para inicializar 
