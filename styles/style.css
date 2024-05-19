@@ -1,12 +1,12 @@
 :root { 
-  --color-primario: #0E424C;
-
-
-
+  --color-principal: #0E424C;
+  --color-secudario: #eeebe6;
+  --color-terciario: #a0826a;
+  --color-ceniza1: #333333;
+  --color-ceniza2: #2b2929;
   --color-verde: #167f92;
-  --primary:#3DCFD3;
-   --color-ceniza1: #333333;
-    --color-ceniza2: #2b2929;
+  --btn-hover:#898989;
+    
 }
 body {
   font-family: Arial, sans-serif;
@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  background: var(--color-primario);
+  background: var(--color-principal);
   color: #fff;
   padding: 20px;
 }
@@ -30,8 +30,6 @@ header {
 h1 {
   position:relative;
   left: 90%;
-  
-
 }
 
 main {
@@ -103,9 +101,68 @@ main {
   font-size: 20px;
 }
 /* Formulario!! */
+#formulario {
+  flex: 0 0 40%;
+}
+
+.form-container {
+  margin: 20px;
+  width: 90%;
+  color: var(--color-verde);
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#producto-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#producto-form input {
+  margin-bottom: 10px;
+  padding: 15px 0;
+  width: 100%;
+  border-radius: 10px;
+  border: solid 2px var(--color-ceniza2); /* Lineas del formulario*/
+}
+
+.btn_limpiar,
+.btn_agregar {
+  background-color: var(--color-verde);
+}
+
+
+.btn_agregar:hover {
+  background-color: var(--btn-hover);
+}
+
+#limpiar,
+#agregar {
+  padding: 15px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.btn-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-form button {
+  margin: 5px;
+  flex: 1;
+  max-width: calc(50% - 10px);
+  font-size: 18px;
+}
+
 
 footer {
-  background: var(--color-primario);
+  background: var(--color-principal);
   color: #fff;
   padding: 20px;
   text-align: center;
