@@ -1,0 +1,12 @@
+{
+  "name": "alurageek",
+  "version": "1.0.0",
+  "description": "Este proyecto es una aplicación web de gestión de productos hecho con HTML, CSS, JavaScript y JSON Server para simular base de datos y almacenar productos. Tambien una CRUD (crear, leer y eliminar).",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch ./database/db.json --port 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

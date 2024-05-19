@@ -1,0 +1,68 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alura Geek | KrloZ</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="reset.css">
+  
+  
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+  <header>
+    <!-- <img class="logo" src="img/logo.png" alt="logo">
+    <h1>Alura Geek </h1> -->   Arreglar
+  </header>
+  <main>
+    <section id="productos">
+      <h2>Productos</h2>
+      <div data-product   id="lista-productos">
+      </div>
+
+    </section>
+    <section id="formulario">
+      <div class="form-container">
+          <h2>Agregar Productos</h2>
+          <form id="producto-form" data-form>
+              <label for="nombre">Nombre del Producto:</label>
+              <input data-name type="text" id="nombre" required placeholder="Nombre...">
+              <!-- Mensaje de error nombre -->
+              <div class="error-container" data-error-for="nombre"></div> 
+              
+              <label for="precio">Precio:</label>
+              <input data-price type="number" id="precio" required placeholder="Precio...">
+              <!-- Mensaje de error para precio -->
+              <div class="error-container" data-error-for="precio"></div> 
+              
+              <label for="imagen">URL de la Imagen:</label>
+              <input data-image type="url" id="imagen" required placeholder="URL de la imagen...">
+              <!-- Mensaje de error para imagen -->
+              <div class="error-container" data-error-for="imagen"></div> 
+  
+              <div class="btn-form">
+                  <button type="submit" id="agregar">Agregar</button>
+                  <button type="button" id="limpiar">Limpiar</button>
+              </div>
+          </form>
+      </div>
+  </section>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <!-- <p>&copy; 2024 Alura Geek. Todos los derechos reservados.</p>
+      <ul class="social-links">
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+      </ul> --> Arreglar 
+    </div>
+  </footer>
+
+  <script type="module" src="js/controllers/main.js"></script>
+</body>
+</html>
