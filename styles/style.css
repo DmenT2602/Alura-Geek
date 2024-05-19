@@ -6,14 +6,26 @@
   --color-ceniza2: #2b2929;
   --color-verde: #167f92;
   --btn-hover:#898989;
-    
+  --color-footer: #000;
+
+  --color-h2: #4a5859;    
 }
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #555;
+  color: #167f92;
   background-color: #f9f9f9;
 }
 
@@ -23,7 +35,6 @@ header {
   padding: 20px;
 }
 .logo {
-  padding-top: 15px;
   position: fixed;
   height: 40px;
 }
@@ -160,9 +171,14 @@ main {
   font-size: 18px;
 }
 
+.copyright {
+  background-color: var(--color-principal);
+  color: #fff;
+  text-align: center;
+}
 
 footer {
-  background: var(--color-principal);
+  background: var(--color-footer);
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -191,6 +207,9 @@ footer {
   color: #fff;
   text-decoration: none;
 }
+
+
+
 @media screen and (max-width: 768px) {
   main {
     flex-direction: column;
