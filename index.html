@@ -1,63 +1,60 @@
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alura Geek | KrloZ</title>
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="reset.css">
-  
-  
   <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-  <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
+
 <body>
   <header>
     <img class="logo" src="img/logo.png" alt="logo">
-    <h1>Alura Geek </h1> 
+    <h1>Alura Geek </h1>
   </header>
   <main>
     <section id="productos">
       <h2 class="titlo">Productos</h2>
-      <div data-product   id="lista-productos">
+      <div data-product id="lista-productos">
       </div>
 
     </section>
     <section id="formulario">
       <div class="form-container">
-          <h2 class="titulo">Agregar Productos</h2>
-          <form id="producto-form" data-form>
-              <label for="nombre">Nombre del Producto:</label>
-              <input data-name type="text" id="nombre" required placeholder="Nombre">
-              <!-- Mensaje de error nombre -->
-              <div class="error-container" data-error-for="nombre"></div> 
-              
-              <label for="precio">Precio:</label>
-              <input data-price type="number" id="precio" required placeholder="Precio">
-              <!-- Mensaje de error para precio -->
-              <div class="error-container" data-error-for="precio"></div> 
-              
-              <label for="imagen">URL de la Imagen:</label>
-              <input data-image type="url" id="imagen" required placeholder="URL de la imagen">
-              <!-- Mensaje de error para imagen -->
-              <div class="error-container" data-error-for="imagen"></div> 
-  
-              <div class="btn-form">
-                  <button type="submit" class="btn_agregar" id="agregar">Agregar</button>
-                  <button type="button" class="btn_limpiar" id="limpiar">Limpiar</button>
-              </div>
-          </form>
+        <h2 class="titulo">Agregar Productos</h2>
+        <form id="producto-form" data-form>
+          <label for="nombre">Nombre del Producto:</label>
+          <input data-name type="text" id="nombre" required placeholder="Nombre">
+          <!-- Mensaje de error nombre -->
+          <div class="error-container" data-error-for="nombre"></div>
+
+          <label for="precio">Precio:</label>
+          <input data-price type="number" id="precio" required placeholder="Precio">
+          <!-- Mensaje de error para precio -->
+          <div class="error-container" data-error-for="precio"></div>
+
+          <label for="imagen">URL de la Imagen:</label>
+          <input data-image type="url" id="imagen" required placeholder="URL de la imagen">
+          <!-- Mensaje de error para imagen -->
+          <div class="error-container" data-error-for="imagen"></div>
+
+          <div class="btn-form">
+            <button type="submit" class="btn_agregar" id="agregar">Agregar</button>
+            <button type="button" class="btn_limpiar" id="limpiar">Limpiar</button>
+          </div>
+        </form>
       </div>
-  </section>
+    </section>
   </main>
   <div class="copyright">
     <div class="footer-container">
       <p>Alura Geek | KrloZ.</p>
       <p>Derechos reservados. </p>
-    <p>&copy; copyright 2024 </P> 
-      
+      <p>&copy; copyright 2024 </P>
+
     </div>
   </div>
   <footer>
@@ -66,11 +63,12 @@
       <li><a href="#">Twitter</a></li>
       <li><a href="#">Instagram</a></li>
     </ul>
-   
-</footer>
 
-    
+  </footer>
+
+
 
   <script type="module" src="js/controllers/main.js"></script>
 </body>
+
 </html>
