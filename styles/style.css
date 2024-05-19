@@ -1,4 +1,8 @@
-:root {
+:root { 
+  --color-primario: #0E424C;
+
+
+
   --color-verde: #167f92;
   --primary:#3DCFD3;
    --color-ceniza1: #333333;
@@ -14,7 +18,7 @@ body {
 }
 
 header {
-  background-color: #03318c;
+  background: var(--color-primario);
   color: #fff;
   padding: 20px;
 }
@@ -98,66 +102,10 @@ main {
   font-weight: bold;
   font-size: 20px;
 }
-
-/* #formulario {
-  flex: 0 0 40%;
-}
-
-.form-container {
-  margin: 20px;
-  width: 90%;
-  color: #03318c;
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-#producto-form {
-  display: flex;
-  flex-direction: column;
-}
-
-#producto-form input {
-  margin-bottom: 10px;
-  padding: 15px 0;
-  width: 100%;
-  border-radius: 10px;
-  border: solid 2px #03318c;
-}
-
-#agregar {
-  padding: 15px;
-  background-color: #03318c;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-#limpiar {
-  padding: 15px;
-  background-color: white;
-  color: #03318c;
-  border: 2px solid #03318c;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.btn-form {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.btn-form button {
-  margin: 5px;
-  flex: 1;
-  max-width: calc(50% - 10px);
-  font-size: 18px;
-}
+/* Formulario!! */
 
 footer {
-  background-color: #03318c;
+  background: var(--color-primario);
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -200,4 +148,4 @@ footer {
     max-height: none;
     overflow-y: visible;
   } 
-}*/
+}
