@@ -1,31 +1,32 @@
-:root { 
+:root {
   --color-principal: #0E424C;
   --color-secudario: #eeebe6;
   --color-terciario: #a0826a;
   --color-ceniza1: #333333;
   --color-ceniza2: #2b2929;
   --color-verde: #167f92;
-  --btn-hover:#898989;
-  --color-footer: #000;
-
-  --color-h2: #4a5859;    
+  --btn-hover: #898989;
+  --color-footer: #1c1c1c; 
+  --color-negro: #;
+  --color-h2: #4a5859;
 }
 
-*{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	text-decoration: none;
-	border: none;
-	outline: none;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
 }
+
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #167f92;
+  color: #23714d;
   background-color: #f9f9f9;
 }
 
@@ -34,14 +35,21 @@ header {
   color: #fff;
   padding: 20px;
 }
+
 .logo {
-  position: fixed;
+  position:absolute;
   height: 40px;
 }
-h1 {
-  position:relative;
-  left: 90%;
+h2 {
+  text-align: center;
+
 }
+h1 {
+  text-align: end;
+  margin: auto;
+  
+}
+
 
 main {
   display: flex;
@@ -62,12 +70,14 @@ main {
 }
 
 .card {
-  border: 1px solid #ccc;
-  border-radius: 5px;
   padding: 10px;
-  background-color: #fff;
   margin-bottom: 20px;
   overflow: hidden;
+  color: var(--color-verde);
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 
 }
 
 .card img {
@@ -77,12 +87,10 @@ main {
   transition: transform 0.3s ease;
 }
 
-/* Aqui va el hover de la img */
-
-
 .card:hover img {
   transform: scale(1.1);
 }
+
 .description {
   display: flex;
   flex-direction: column;
@@ -94,23 +102,25 @@ main {
   text-decoration: underline;
 }
 
-.price {
-  color: #03318c;
+.price { /* Precio */ 
+  color: #082c38;
   margin-right: 20px;
   font-size: 20px;
   font-weight: bold;
 }
+
 .price-delete {
   display: flex;
   justify-content: space-between;
 }
 
 .btn-delete {
-  color: #5d04d9;
+  color: var(--color-verde);
   cursor: pointer;
   font-weight: bold;
   font-size: 20px;
 }
+
 /* Formulario!! */
 #formulario {
   flex: 0 0 40%;
@@ -120,9 +130,10 @@ main {
   margin: 20px;
   width: 90%;
   color: var(--color-verde);
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 
 }
 
 #producto-form {
@@ -135,7 +146,8 @@ main {
   padding: 15px 0;
   width: 100%;
   border-radius: 10px;
-  border: solid 2px var(--color-ceniza2); /* Lineas del formulario*/
+  border: solid 2px var(--color-ceniza2);
+  /* Lineas del formulario*/
 }
 
 .btn_limpiar,
@@ -173,8 +185,11 @@ main {
 
 .copyright {
   background-color: var(--color-principal);
+  height: 90px;
+  width: 100%;
   color: #fff;
   text-align: center;
+  align-content: center;
 }
 
 footer {
@@ -223,5 +238,5 @@ footer {
   #lista-productos {
     max-height: none;
     overflow-y: visible;
-  } 
+  }
 }
