@@ -1,0 +1,28 @@
+{
+  "productos": [
+    {
+      "id": "bdff",
+      "imagen": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_134330137?x=320&y=320&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=320&ey=320&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=320&cdy=320",
+      "nombre": "PlayStation 5 Slim",
+      "precio": "550"
+    },
+    {
+      "id": "cf1e",
+      "imagen": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_103733111?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402",
+      "nombre": "Auriculares inalámbricos - JBL Tour One M2",
+      "precio": "250"
+    },
+    {
+      "id": "c906",
+      "imagen": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_113093657?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402",
+      "nombre": "GoPro Hero 12",
+      "precio": "400"
+    },
+    {
+      "id": "16ab",
+      "imagen": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_103657183?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402",
+      "nombre": "Mini Drone - DJI Mini 2 SE",
+      "precio": "450"
+    }
+  ]
+}
