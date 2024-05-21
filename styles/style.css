@@ -69,6 +69,7 @@ main {
   overflow-y: auto;
 }
 
+/* Tarjetas */
 .card {
   padding: 10px;
   margin-bottom: 20px;
